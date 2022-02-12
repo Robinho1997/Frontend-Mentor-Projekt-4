@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+    font-size: 1rem;
+    font-family: Inter;
+    
+}
+
+
+
+
+.flexbox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 15%;
+   border-radius: 15px;
+    width: 60%;
+    background-color: hsl(244, 38%, 16%);
+    
+    
+}
+
+.textbox {
+    width: 100%;
+    padding-left: 100px;
+    
+}
+
+p {
+    font-size: 1rem;
+    font-weight: lighter;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+
+
+
+
+.liste {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+    margin-left: -40px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    
+    
+   
+}
+
+
+.color {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+
+img {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  opacity: 0.6 ;
+filter: invert(5%) sepia(15%) saturate(3515%) hue-rotate(240deg) brightness(76%) contrast(84%);
+}
+
+.färben {
+    color: blueviolet;
+}
+
+
+@media (max-width: 500px) {
+
+
+
+body {
+    margin: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+    
+   
+    
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:center;
+    margin-top: 20%;
+    border-radius: 15px;
+     width: auto;
+     text-align: center;
+     
+     
+
+}
+.textbox {
+    width: auto;
+    padding-left:0;
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0px;
+    
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.liste {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin-left: 0;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    
+    
+   
+}
+
+
+img {
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+}
